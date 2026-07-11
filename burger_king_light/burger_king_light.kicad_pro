@@ -648,13 +648,21 @@
         "uuid": "a1df17e6-efc5-454a-8f2a-f09b9061eebb"
       }
     ],
-    "used_designators": "IC1",
+    "used_designators": "IC1-4,U1,D1",
     "variants": []
   },
   "sheets": [
     [
       "a1df17e6-efc5-454a-8f2a-f09b9061eebb",
       "burger_king_light"
+    ],
+    [
+      "2b973585-e867-4f75-9aeb-d45cf169fa75",
+      "boost_converter"
+    ],
+    [
+      "0641335a-b39f-4dc9-bc4d-328a71cdee24",
+      "astable_555"
     ]
   ],
   "text_variables": {},

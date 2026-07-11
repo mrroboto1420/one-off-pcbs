@@ -308,7 +308,7 @@
 	)
 	(symbol
 		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
-		(at 73.66 82.55 0)
+		(at 143.51 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -317,9 +317,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "38ad7108-7438-42f5-b8f0-00fc62e8e3fe")
-		(property "Reference" "IC1"
-			(at 88.9 74.93 0)
+		(uuid "9402d724-13dc-4cca-85f2-7450dc540b0c")
+		(property "Reference" "IC4"
+			(at 158.75 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -328,8 +328,8 @@
 				)
 			)
 		)
-		(property "Value" "IS32LT3177-GRLA3-TR"
-			(at 88.9 77.47 0)
+		(property "Value" "IS32LT3178-GRLA3-TR"
+			(at 158.75 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -339,7 +339,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X170-9N"
-			(at 100.33 177.47 0)
+			(at 170.18 227 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -351,7 +351,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
-			(at 100.33 277.47 0)
+			(at 170.18 327 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -363,7 +363,7 @@
 			)
 		)
 		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
-			(at 73.66 82.55 0)
+			(at 143.51 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -374,7 +374,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 100.33 477.47 0)
+			(at 170.18 527 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -386,7 +386,7 @@
 			)
 		)
 		(property "Mouser Part Number" "870-3177-GRLA3-TR"
-			(at 100.33 577.47 0)
+			(at 170.18 627 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -398,7 +398,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
-			(at 100.33 677.47 0)
+			(at 170.18 727 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -410,7 +410,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 100.33 777.47 0)
+			(at 170.18 827 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -422,7 +422,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
-			(at 100.33 877.47 0)
+			(at 170.18 927 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -434,37 +434,455 @@
 			)
 		)
 		(pin "6"
-			(uuid "43600893-d1e2-4381-be3f-432612126213")
+			(uuid "dd89c4c9-5538-4f1b-ac77-9a63d318f0c4")
 		)
 		(pin "2"
-			(uuid "ef5a59f7-8755-4179-93a9-8cef8ce03286")
+			(uuid "2eabb7ab-5784-4f46-9dea-0ffd3d32ad28")
 		)
 		(pin "5"
-			(uuid "fe395f79-c3e2-4599-bb44-a9d55135bd5c")
+			(uuid "843827c1-35e1-46fb-8831-428f1016b112")
 		)
 		(pin "7"
-			(uuid "74617a60-73c1-4b88-ae14-c9749e7f7ceb")
+			(uuid "216074bf-da4b-4246-b171-efb6e7a403cd")
 		)
 		(pin "4"
-			(uuid "bb03594c-ece1-469f-aecd-1b0d61e68484")
+			(uuid "2f9e3d77-96d5-4f5e-8431-4f26de3630f7")
 		)
 		(pin "8"
-			(uuid "7f9345a3-a8d7-4601-a3d1-0dec0ccd6267")
+			(uuid "f2a2ee73-104f-4720-85c7-17108791bfb6")
 		)
 		(pin "3"
-			(uuid "b586aedc-c355-453b-975e-ec0c398cdf36")
+			(uuid "1e076cde-ec84-43a2-8dfd-ea7d23378f47")
 		)
 		(pin "1"
-			(uuid "a14893b3-c198-4915-b0d2-5726eb839478")
+			(uuid "b220a480-84be-4960-b62f-73972f5ca74d")
 		)
 		(pin "9"
-			(uuid "138d1e44-a366-49d2-a282-791f6a9dc298")
+			(uuid "27e18b1f-79d9-4b3a-85a2-18c271dbe00e")
 		)
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
-					(reference "IC1")
+					(reference "IC4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
+		(at 143.51 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8185251-73c6-4516-b5e7-5e695d7381b5")
+		(property "Reference" "IC2"
+			(at 158.75 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IS32LT3178-GRLA3-TR"
+			(at 158.75 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X170-9N"
+			(at 170.18 139.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
+			(at 170.18 239.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.7"
+			(at 170.18 439.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "870-3177-GRLA3-TR"
+			(at 170.18 539.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
+			(at 170.18 639.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Lumissil Microsystems"
+			(at 170.18 739.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
+			(at 170.18 839.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "9fd4fd82-fc1d-4b51-aa91-89ff98d0abdc")
+		)
+		(pin "2"
+			(uuid "ff9abc7d-c1c0-4453-ab3d-063164b67753")
+		)
+		(pin "5"
+			(uuid "08866eb5-e6df-4bbc-97ac-12c26c965b3c")
+		)
+		(pin "7"
+			(uuid "ac314c75-34f3-4399-ba75-e0079b509883")
+		)
+		(pin "4"
+			(uuid "9d24bb95-3cdf-4f84-9a3a-26a3a725f80e")
+		)
+		(pin "8"
+			(uuid "1dfb7afa-5c9d-45f9-856d-c870eb51ee1b")
+		)
+		(pin "3"
+			(uuid "40f9e24c-63ed-4118-b8fb-09260ead9090")
+		)
+		(pin "1"
+			(uuid "0310d9d5-456b-4f15-803d-ba1c70dfcd6c")
+		)
+		(pin "9"
+			(uuid "e8b4487c-0700-4a31-92bd-376c71d5be42")
+		)
+		(instances
+			(project "burger_king_light"
+				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
+		(at 143.51 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec8a82b7-9292-4c79-bbc6-aabf5d46fdc0")
+		(property "Reference" "IC3"
+			(at 158.75 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IS32LT3178-GRLA3-TR"
+			(at 158.75 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X170-9N"
+			(at 170.18 183.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
+			(at 170.18 283.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
+			(at 143.51 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.7"
+			(at 170.18 483.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "870-3177-GRLA3-TR"
+			(at 170.18 583.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
+			(at 170.18 683.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Lumissil Microsystems"
+			(at 170.18 783.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
+			(at 170.18 883.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "ec6298ba-349b-4f98-bd42-7687361a24bb")
+		)
+		(pin "2"
+			(uuid "fb59e38e-1144-4a1f-8d89-597ee56446f1")
+		)
+		(pin "5"
+			(uuid "d2ea3584-8ed9-4c67-9044-43547c582f15")
+		)
+		(pin "7"
+			(uuid "d12b1df3-72b1-42c9-8931-144ce49dc6f6")
+		)
+		(pin "4"
+			(uuid "8e0c6551-fbc9-4c10-b9b9-02804fb16bc2")
+		)
+		(pin "8"
+			(uuid "5962bb4e-2f06-4481-967e-32c938921541")
+		)
+		(pin "3"
+			(uuid "ed3bb82b-9a0e-482f-872c-fe4a17d4eb56")
+		)
+		(pin "1"
+			(uuid "d82d21e9-2236-46ea-a087-c2ed4c7a90ce")
+		)
+		(pin "9"
+			(uuid "77faab72-cf73-4537-bc77-3c79b4daae5b")
+		)
+		(instances
+			(project "burger_king_light"
+				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 54.61)
+		(size 34.29 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0641335a-b39f-4dc9-bc4d-328a71cdee24")
+		(property "Sheetname" "astable_555"
+			(at 30.48 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "astable_555.kicad_sch"
+			(at 30.48 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "burger_king_light"
+				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 25.4)
+		(size 34.29 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2b973585-e867-4f75-9aeb-d45cf169fa75")
+		(property "Sheetname" "boost_converter"
+			(at 30.48 24.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost_converter.kicad_sch"
+			(at 30.48 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "burger_king_light"
+				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
+					(page "2")
 				)
 			)
 		)
