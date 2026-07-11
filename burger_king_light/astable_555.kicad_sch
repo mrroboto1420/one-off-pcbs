@@ -430,7 +430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcd14b5-ff27-4ad1-bf1f-6fd19e4eecd0")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 100.33 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -492,7 +492,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/0641335a-b39f-4dc9-bc4d-328a71cdee24"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
