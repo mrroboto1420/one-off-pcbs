@@ -5,48 +5,37 @@
 	(uuid "a1df17e6-efc5-454a-8f2a-f09b9061eebb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "misc_ICs:IS32LT3177-GRLA3-TR"
+		(symbol "Connector:Jack-DC"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
+			(property "Reference" "J"
+				(at 0 5.334 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "IS32LT3177-GRLA3-TR"
-				(at 26.67 5.08 0)
+			(property "Value" "Jack-DC"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SOIC127P600X170-9N"
-				(at 26.67 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
-				(at 26.67 -194.92 0)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -54,10 +43,20 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
+			(property "Datasheet" ""
+				(at 1.27 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Barrel Jack"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -68,8 +67,8 @@
 					)
 				)
 			)
-			(property "Height" "1.7"
-				(at 26.67 -394.92 0)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -77,11 +76,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "870-3177-GRLA3-TR"
-				(at 26.67 -494.92 0)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -89,49 +87,12 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
-				(at 26.67 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Lumissil Microsystems"
-				(at 26.67 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
-				(at 26.67 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "IS32LT3177-GRLA3-TR_1_1"
+			(symbol "Jack-DC_0_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -20.32)
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -140,10 +101,71 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jack-DC_1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "OUT_1"
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -159,9 +181,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "OUT_2"
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -176,17 +198,138 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "EN"
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+28V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+28V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 6.35 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 6.35 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+28V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+28V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+28V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -194,107 +337,114 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "ISET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -7.62 180)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "GND_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "GND_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin passive line
-					(at 15.24 -25.4 90)
-					(length 5.08)
-					(name "GND_5"
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -306,9 +456,49 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bd7868-8e9b-4760-ad56-3073cd5f8afa")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4525e0f7-f649-4919-82e5-f88da471c969")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb5288b-4a35-425f-9d1b-93e3194ee78d")
+	)
+	(wire
+		(pts
+			(xy 165.1 66.04) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcc2c30-56ef-436b-a234-7e0582910725")
+	)
 	(symbol
-		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
-		(at 143.51 132.08 0)
+		(lib_id "power:+28V")
+		(at 165.1 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -317,53 +507,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9402d724-13dc-4cca-85f2-7450dc540b0c")
-		(property "Reference" "IC4"
-			(at 158.75 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IS32LT3178-GRLA3-TR"
-			(at 158.75 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X170-9N"
-			(at 170.18 227 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
-			(at 170.18 327 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
-			(at 143.51 132.08 0)
+		(uuid "3363103b-14b8-4cdc-9751-23332277cbc5")
+		(property "Reference" "#PWR06"
+			(at 165.1 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -373,8 +519,18 @@
 				)
 			)
 		)
-		(property "Height" "1.7"
-			(at 170.18 527 0)
+		(property "Value" "+12V"
+			(at 165.1 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -382,11 +538,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "870-3177-GRLA3-TR"
-			(at 170.18 627 0)
+		(property "Datasheet" ""
+			(at 171.45 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -394,11 +549,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
-			(at 170.18 727 0)
+		(property "Description" "Power symbol creates a global label with name \"+28V\""
+			(at 165.1 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -406,72 +560,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
-		)
-		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 170.18 827 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
-			(at 170.18 927 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "6"
-			(uuid "dd89c4c9-5538-4f1b-ac77-9a63d318f0c4")
-		)
-		(pin "2"
-			(uuid "2eabb7ab-5784-4f46-9dea-0ffd3d32ad28")
-		)
-		(pin "5"
-			(uuid "843827c1-35e1-46fb-8831-428f1016b112")
-		)
-		(pin "7"
-			(uuid "216074bf-da4b-4246-b171-efb6e7a403cd")
-		)
-		(pin "4"
-			(uuid "2f9e3d77-96d5-4f5e-8431-4f26de3630f7")
-		)
-		(pin "8"
-			(uuid "f2a2ee73-104f-4720-85c7-17108791bfb6")
-		)
-		(pin "3"
-			(uuid "1e076cde-ec84-43a2-8dfd-ea7d23378f47")
 		)
 		(pin "1"
-			(uuid "b220a480-84be-4960-b62f-73972f5ca74d")
-		)
-		(pin "9"
-			(uuid "27e18b1f-79d9-4b3a-85a2-18c271dbe00e")
+			(uuid "d9e5c1b2-b2cc-4e4c-b9da-7051aa22d19d")
 		)
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
-					(reference "IC4")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
-		(at 143.51 44.45 0)
+		(lib_id "power:GND")
+		(at 165.1 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -480,53 +585,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c8185251-73c6-4516-b5e7-5e695d7381b5")
-		(property "Reference" "IC2"
-			(at 158.75 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IS32LT3178-GRLA3-TR"
-			(at 158.75 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOIC127P600X170-9N"
-			(at 170.18 139.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
-			(at 170.18 239.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
-			(at 143.51 44.45 0)
+		(uuid "45af2a4d-e787-42aa-8ec6-6e68f8043407")
+		(property "Reference" "#PWR05"
+			(at 165.1 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -536,8 +597,18 @@
 				)
 			)
 		)
-		(property "Height" "1.7"
-			(at 170.18 439.37 0)
+		(property "Value" "GND"
+			(at 165.1 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -545,11 +616,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "870-3177-GRLA3-TR"
-			(at 170.18 539.37 0)
+		(property "Datasheet" ""
+			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -557,11 +627,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
-			(at 170.18 639.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -569,83 +638,34 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
-		)
-		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 170.18 739.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
-			(at 170.18 839.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "6"
-			(uuid "9fd4fd82-fc1d-4b51-aa91-89ff98d0abdc")
-		)
-		(pin "2"
-			(uuid "ff9abc7d-c1c0-4453-ab3d-063164b67753")
-		)
-		(pin "5"
-			(uuid "08866eb5-e6df-4bbc-97ac-12c26c965b3c")
-		)
-		(pin "7"
-			(uuid "ac314c75-34f3-4399-ba75-e0079b509883")
-		)
-		(pin "4"
-			(uuid "9d24bb95-3cdf-4f84-9a3a-26a3a725f80e")
-		)
-		(pin "8"
-			(uuid "1dfb7afa-5c9d-45f9-856d-c870eb51ee1b")
-		)
-		(pin "3"
-			(uuid "40f9e24c-63ed-4118-b8fb-09260ead9090")
 		)
 		(pin "1"
-			(uuid "0310d9d5-456b-4f15-803d-ba1c70dfcd6c")
-		)
-		(pin "9"
-			(uuid "e8b4487c-0700-4a31-92bd-376c71d5be42")
+			(uuid "3611dc11-69d7-4c38-bc08-af1df76fc89b")
 		)
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
-					(reference "IC2")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
-		(at 143.51 88.9 0)
+		(lib_id "Connector:Jack-DC")
+		(at 148.59 63.5 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ec8a82b7-9292-4c79-bbc6-aabf5d46fdc0")
-		(property "Reference" "IC3"
-			(at 158.75 81.28 0)
+		(uuid "c6fa36a6-d388-4b08-ab4d-e2dcb6c3076a")
+		(property "Reference" "J1"
+			(at 148.59 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -654,8 +674,8 @@
 				)
 			)
 		)
-		(property "Value" "IS32LT3178-GRLA3-TR"
-			(at 158.75 83.82 0)
+		(property "Value" "Jack-DC"
+			(at 148.59 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -664,32 +684,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
-			(at 170.18 183.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
-			(at 170.18 283.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
-			(at 143.51 88.9 0)
+		(property "Footprint" ""
+			(at 149.86 64.516 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -699,8 +695,8 @@
 				)
 			)
 		)
-		(property "Height" "1.7"
-			(at 170.18 483.82 0)
+		(property "Datasheet" ""
+			(at 149.86 64.516 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -708,11 +704,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "870-3177-GRLA3-TR"
-			(at 170.18 583.82 0)
+		(property "Description" "DC Barrel Jack"
+			(at 148.59 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -720,76 +715,18 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
-			(at 170.18 683.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 170.18 783.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
-			(at 170.18 883.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "6"
-			(uuid "ec6298ba-349b-4f98-bd42-7687361a24bb")
-		)
-		(pin "2"
-			(uuid "fb59e38e-1144-4a1f-8d89-597ee56446f1")
-		)
-		(pin "5"
-			(uuid "d2ea3584-8ed9-4c67-9044-43547c582f15")
-		)
-		(pin "7"
-			(uuid "d12b1df3-72b1-42c9-8931-144ce49dc6f6")
-		)
-		(pin "4"
-			(uuid "8e0c6551-fbc9-4c10-b9b9-02804fb16bc2")
-		)
-		(pin "8"
-			(uuid "5962bb4e-2f06-4481-967e-32c938921541")
-		)
-		(pin "3"
-			(uuid "ed3bb82b-9a0e-482f-872c-fe4a17d4eb56")
 		)
 		(pin "1"
-			(uuid "d82d21e9-2236-46ea-a087-c2ed4c7a90ce")
+			(uuid "c9782bf4-bc24-4b4f-9bda-ee3b0e758b1b")
 		)
-		(pin "9"
-			(uuid "77faab72-cf73-4537-bc77-3c79b4daae5b")
+		(pin "2"
+			(uuid "62eeb393-e97f-4523-85e9-5f3408a08958")
 		)
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
-					(reference "IC3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -883,6 +820,52 @@
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 83.82)
+		(size 34.29 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8d1794ed-4131-430d-a90f-cb9174cf4871")
+		(property "Sheetname" "led_drivers"
+			(at 30.48 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_drivers.kicad_sch"
+			(at 30.48 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "burger_king_light"
+				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
+					(page "4")
 				)
 			)
 		)

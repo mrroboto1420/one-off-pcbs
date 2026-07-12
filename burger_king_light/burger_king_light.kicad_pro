@@ -636,6 +636,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -648,7 +656,7 @@
         "uuid": "a1df17e6-efc5-454a-8f2a-f09b9061eebb"
       }
     ],
-    "used_designators": "R1-4,IC1-4,U1,L1,D1-2,C1-7",
+    "used_designators": "R1-4,IC1-4,U1,#PWR1-8,L1,D1-4,C1-7,RV1,Cin1,J1,Cinx1",
     "variants": []
   },
   "sheets": [
@@ -663,6 +671,10 @@
     [
       "0641335a-b39f-4dc9-bc4d-328a71cdee24",
       "astable_555"
+    ],
+    [
+      "8d1794ed-4131-430d-a90f-cb9174cf4871",
+      "led_drivers"
     ]
   ],
   "text_variables": {},
