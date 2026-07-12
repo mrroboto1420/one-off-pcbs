@@ -1937,6 +1937,12 @@
 		(uuid "e16ea73a-86f8-4aab-8709-ed7c9c88b94a")
 	)
 	(junction
+		(at 222.25 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e20ce5e6-557f-4ccd-8877-d62b2f8c860a")
+	)
+	(junction
 		(at 209.55 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1985,6 +1991,16 @@
 			(type default)
 		)
 		(uuid "09287327-5566-4fdb-9288-9c0869918279")
+	)
+	(wire
+		(pts
+			(xy 222.25 88.9) (xy 229.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09552aad-779a-4434-90b3-c9a25020f86c")
 	)
 	(wire
 		(pts
@@ -2085,6 +2101,16 @@
 			(type default)
 		)
 		(uuid "24057b4d-45c4-4c97-be07-72ef2bd7c75e")
+	)
+	(wire
+		(pts
+			(xy 222.25 88.9) (xy 222.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24848206-4923-4a14-b49f-f3724db8ae1c")
 	)
 	(wire
 		(pts
@@ -2338,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 105.41) (xy 222.25 80.01)
+			(xy 222.25 105.41) (xy 222.25 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2675,6 +2701,30 @@
 			(type default)
 		)
 		(uuid "fcfcafa5-4487-4621-95c4-2e71c02a2291")
+	)
+	(global_label "32V_out"
+		(shape input)
+		(at 229.87 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a45cd6a3-a45b-4a18-8d5f-751a7dc7b2e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.3541 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "passives:EEHZA1H100R")
@@ -3953,6 +4003,50 @@
 				)
 			)
 		)
+		(property "Sim.Library" "C:\\Users\\Admin\\Documents\\KiCad\\10.0\\spice\\diodes\\CDBA540-HF.lib"
+			(at 185.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "CDBA540HF"
+			(at 185.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b0e9aaa9-480c-450d-8cfd-5705cf28538f")
 		)
@@ -4093,6 +4187,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\Admin\\Documents\\KiCad\\10.0\\spice\\buck_boost_ICs\\TPS55340_TRANS_LTspice.lib"
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "TPS55340_TRANS"
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=SW_0 2=SW_1 3=VIN 4=EN 5=SS 6=SYNC 8=COMP 9=FB 10=FREQ 12=PGND_0 13=PGND_1 14=PGND_2 15=AGND"
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
