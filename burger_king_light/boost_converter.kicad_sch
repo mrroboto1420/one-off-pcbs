@@ -2681,14 +2681,14 @@
 		(at 209.55 107.95 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21ec6d42-0b5d-4a04-8616-188c5eaffe00")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout1"
 			(at 213.36 107.3765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2801,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Cout")
+					(reference "Cout1")
 					(unit 1)
 				)
 			)
@@ -2812,7 +2812,7 @@
 		(at 186.69 99.06 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -2890,14 +2890,14 @@
 		(at 175.26 127 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf2051d-0672-4f40-9c80-f48a89e9c80f")
-		(property "Reference" "Ccomp"
+		(property "Reference" "Ccomp1"
 			(at 179.07 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +2972,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Ccomp")
+					(reference "Ccomp1")
 					(unit 1)
 				)
 			)
@@ -2983,14 +2983,14 @@
 		(at 196.85 102.87 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "540a460b-5618-4456-bfbc-e2275518666d")
-		(property "Reference" "Rfbt"
+		(property "Reference" "Rfbt1"
 			(at 199.39 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3065,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Rfbt")
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
@@ -3076,14 +3076,14 @@
 		(at 166.37 119.38 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e833131-fa1e-4d49-a31d-9798641d7366")
-		(property "Reference" "Rcomp"
+		(property "Reference" "Rcomp1"
 			(at 166.37 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3156,7 +3156,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Rcomp")
+					(reference "Rcomp1")
 					(unit 1)
 				)
 			)
@@ -3167,7 +3167,7 @@
 		(at 151.13 80.01 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -3249,7 +3249,7 @@
 		(at 156.21 127 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -3341,14 +3341,14 @@
 		(at 165.1 106.68 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91455aff-9002-48d4-9b16-bec26cb3e5ad")
-		(property "Reference" "Rt"
+		(property "Reference" "Rt1"
 			(at 165.1 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3421,7 +3421,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Rt")
+					(reference "Rt1")
 					(unit 1)
 				)
 			)
@@ -3432,14 +3432,14 @@
 		(at 196.85 114.3 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "947b2395-c2c3-4b76-aab7-78807ade7e51")
-		(property "Reference" "Rfbb"
+		(property "Reference" "Rfbb1"
 			(at 199.39 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3514,7 +3514,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Rfbb")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
@@ -3525,14 +3525,14 @@
 		(at 107.95 120.65 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "995fee27-6635-4157-be65-6306f81fda43")
-		(property "Reference" "Css"
+		(property "Reference" "Css1"
 			(at 111.76 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,7 +3607,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Css")
+					(reference "Css1")
 					(unit 1)
 				)
 			)
@@ -3618,14 +3618,14 @@
 		(at 82.55 109.22 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a2475bc-13f6-491f-9e27-09fff6ce9589")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin1"
 			(at 86.36 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3700,7 +3700,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Cin")
+					(reference "Cin1")
 					(unit 1)
 				)
 			)
@@ -3711,7 +3711,7 @@
 		(at 137.16 138.43 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -3789,14 +3789,14 @@
 		(at 222.25 109.22 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d8eb2cd-bbce-4749-beb2-dffba8ebd27f")
-		(property "Reference" "Coutx"
+		(property "Reference" "Coutx1"
 			(at 226.06 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3871,7 +3871,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Coutx")
+					(reference "Coutx1")
 					(unit 1)
 				)
 			)
@@ -3882,7 +3882,7 @@
 		(at 185.42 80.01 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -3973,7 +3973,7 @@
 		(at 121.92 96.52 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4154,7 +4154,7 @@
 		(at 69.85 69.85 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4232,7 +4232,7 @@
 		(at 234.95 69.85 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -4310,14 +4310,14 @@
 		(at 95.25 109.22 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2241103-5225-4484-802b-ad251c2901c0")
-		(property "Reference" "Cinx"
+		(property "Reference" "Cinx1"
 			(at 99.06 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4392,7 +4392,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Cinx")
+					(reference "Cinx1")
 					(unit 1)
 				)
 			)
