@@ -794,7 +794,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "2b973585-e867-4f75-9aeb-d45cf169fa75")
-		(property "Sheetname" "boost_converter"
+		(property "Sheetname" "boost_converter_32V"
 			(at 58.42 38.6584 0)
 			(show_name no)
 			(do_not_autoplace no)
