@@ -5,7 +5,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1u 100m 0",
+        ".tran 1u 20m 0",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -22,11 +22,6 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(+12V)",
-          "trace_type": 257
-        },
-        {
           "color": "rgb(166, 86, 40)",
           "signal": "V(Net-_D2-K_)",
           "trace_type": 257
@@ -34,12 +29,12 @@
         {
           "color": "rgb(55, 126, 184)",
           "cursor1": {
-            "position": 0.04512882656148394,
+            "position": 0.043858397245094265,
             "x_format": "3~s",
             "y_format": "3~V"
           },
           "cursor2": {
-            "position": 0.048875883052650136,
+            "position": 0.047235714080539136,
             "x_format": "3~s",
             "y_format": "3~V"
           },
