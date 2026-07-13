@@ -3063,7 +3063,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0d0976cb-463c-45df-b851-42c738c722a3")
-		(property "Reference" "Csnub2"
+		(property "Reference" "Csnub1"
 			(at 196.85 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3136,7 +3136,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Csnub2")
+					(reference "Csnub1")
 					(unit 1)
 				)
 			)
@@ -3154,7 +3154,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "14896019-03c7-4675-ab40-381736bdd2d0")
-		(property "Reference" "Rsnub2"
+		(property "Reference" "Rsnub1"
 			(at 185.42 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,7 +3227,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Rsnub2")
+					(reference "Rsnub1")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a09c535-c6c1-4165-a516-6d0b41830f4d")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 210.82 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3305,7 +3305,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3546,7 +3546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6148a5-908a-4112-9c9c-19bea91a80e1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 186.69 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3606,7 +3606,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3624,7 +3624,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3d204a09-478d-41a7-aa09-74b6b81bc60f")
-		(property "Reference" "Csnub1"
+		(property "Reference" "Csnub2"
 			(at 196.85 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3697,7 +3697,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Csnub1")
+					(reference "Csnub2")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf2051d-0672-4f40-9c80-f48a89e9c80f")
-		(property "Reference" "Ccomp1"
+		(property "Reference" "Ccomp2"
 			(at 179.07 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +3790,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Ccomp1")
+					(reference "Ccomp2")
 					(unit 1)
 				)
 			)
@@ -4134,7 +4134,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7a86ac15-9a0a-4d75-9639-1356e9ca7e16")
-		(property "Reference" "Rsnub1"
+		(property "Reference" "Rsnub2"
 			(at 185.42 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4207,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Rsnub1")
+					(reference "Rsnub2")
 					(unit 1)
 				)
 			)
@@ -4224,7 +4224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90eae0d9-f942-4a48-8b57-687c7923d4cd")
-		(property "Reference" "Ccomp2"
+		(property "Reference" "Ccomp1"
 			(at 161.29 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4299,7 +4299,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Ccomp2")
+					(reference "Ccomp1")
 					(unit 1)
 				)
 			)
@@ -4594,7 +4594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a733d57-14b9-4cf2-9c0b-af8a44473ca4")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 137.16 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4654,7 +4654,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4993,7 +4993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acfa916e-5a40-482d-93aa-c8114c256c6d")
-		(property "Reference" "Cbulk"
+		(property "Reference" "Cbulk1"
 			(at 55.88 107.3765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5058,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Cbulk")
+					(reference "Cbulk1")
 					(unit 1)
 				)
 			)
@@ -5485,7 +5485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdf19f26-5ab1-43d9-897e-dcbd7efe5ec5")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 49.53 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5545,7 +5545,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5563,7 +5563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e279a882-6503-41eb-8057-b11ccfac3299")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR07"
 			(at 262.89 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5624,7 +5624,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "#PWR02")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
