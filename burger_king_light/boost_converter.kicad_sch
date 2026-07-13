@@ -1158,10 +1158,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "passives:IHLP2525CZER100M11"
-			(body_styles demorgan)
+		(symbol "passives:PM124SH-100M-RC"
 			(pin_names
-				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1169,51 +1168,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
-				(at 6.985 5.08 0)
+				(at 16.51 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "IHLP2525CZER100M11"
-				(at 6.985 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IND_IHLP_2525_CZ_VIS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/doc?34190"
-				(at 0 0 0)
+			(property "Value" "10uH"
+				(at 16.51 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Footprint" "INDPM125125X450N"
+				(at 16.51 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1221,19 +1198,22 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/PM124SH-100M-RC/3741472"
+				(at 16.51 -196.19 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "IHLP2525CZER100M11"
+			(property "Description" "BOURNS JW MILLER - PM124SH-100M-RC - INDUCTOR, SHIELDED, 10UH, 4A, 20%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1244,8 +1224,8 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "IND_IHLP_2525_CZ_VIS IND_IHLP_2525_CZ_VIS-M IND_IHLP_2525_CZ_VIS-L"
-				(at 0 0 0)
+			(property "Height" "4.5"
+				(at 16.51 -396.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1253,25 +1233,62 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "IHLP2525CZER100M11_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
+			(property "Mouser Part Number" "542-PM124SH-100M-RC"
+				(at 16.51 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
 				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PM124SH-100M-RC?qs=%252BhGYyi1WD%252Bn7U9q4tV%252BKqg%3D%3D"
+				(at 16.51 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Bourns"
+				(at 16.51 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PM124SH-100M-RC"
+				(at 16.51 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "PM124SH-100M-RC_1_1"
 				(arc
-					(start 2.54 1.27)
-					(mid 3.81 2.5344)
-					(end 5.08 1.27)
+					(start 5.08 0)
+					(mid 6.35 1.219)
+					(end 7.62 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1280,22 +1297,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
-					(start 5.08 1.27)
-					(mid 6.35 2.5344)
-					(end 7.62 1.27)
+					(start 7.62 0)
+					(mid 8.89 1.219)
+					(end 10.16 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1304,22 +1309,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
-					(start 7.62 1.27)
-					(mid 8.89 2.5344)
-					(end 10.16 1.27)
+					(start 10.16 0)
+					(mid 11.43 1.219)
+					(end 12.7 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1328,22 +1321,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
-					(start 10.16 1.27)
-					(mid 11.43 2.5344)
-					(end 12.7 1.27)
+					(start 12.7 0)
+					(mid 13.97 1.219)
+					(end 15.24 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1352,167 +1333,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 12.7 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "IHLP2525CZER100M11_1_2"
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5344 11.43)
-					(end -1.27 12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5344 8.89)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5344 6.35)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 2.54)
-					(mid -2.5344 3.81)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
@@ -1528,9 +1351,9 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
 					(name "2"
 						(effects
 							(font
@@ -1805,16 +1628,22 @@
 		)
 	)
 	(junction
-		(at 82.55 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "012fd952-1f6f-46f9-9706-f328dfe1b753")
-	)
-	(junction
 		(at 175.26 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0233e96d-de30-45da-9d42-3af7e0dd85a1")
+	)
+	(junction
+		(at 85.09 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7c2719-10b2-42f9-bf2c-b20ad4e7d9b9")
+	)
+	(junction
+		(at 96.52 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fef593a-34a4-40b8-bbe6-3c2ed45dc760")
 	)
 	(junction
 		(at 196.85 109.22)
@@ -1833,6 +1662,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2afc4709-c902-4f77-9a1a-87a6a038cff5")
+	)
+	(junction
+		(at 85.09 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f33336-59f2-4b46-8a07-12a4a21046b8")
+	)
+	(junction
+		(at 73.66 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54eaf8c1-3ee9-47f4-b4e0-26f94a0ce611")
 	)
 	(junction
 		(at 156.21 101.6)
@@ -1865,12 +1706,6 @@
 		(uuid "7cb6ee5c-1160-4788-b3cb-ddf8dc9a0567")
 	)
 	(junction
-		(at 95.25 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81b330d6-a403-47b9-873e-94b04535d8aa")
-	)
-	(junction
 		(at 156.21 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1881,12 +1716,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c91f89c-63db-440a-a5fc-e5a654db94fb")
-	)
-	(junction
-		(at 95.25 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0b803f6-9d0c-4c89-b71d-1bbd81a3cc89")
 	)
 	(junction
 		(at 222.25 80.01)
@@ -1937,10 +1766,10 @@
 		(uuid "e16ea73a-86f8-4aab-8709-ed7c9c88b94a")
 	)
 	(junction
-		(at 222.25 88.9)
+		(at 96.52 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e20ce5e6-557f-4ccd-8877-d62b2f8c860a")
+		(uuid "ea79579d-2fe3-44e5-b5ec-d25227bc2797")
 	)
 	(junction
 		(at 209.55 80.01)
@@ -1951,6 +1780,16 @@
 	(no_connect
 		(at 121.92 109.22)
 		(uuid "2cbdf897-de62-427a-839b-582bdb93e239")
+	)
+	(wire
+		(pts
+			(xy 73.66 113.03) (xy 73.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003192d6-d328-42c3-998b-f650a7983e3e")
 	)
 	(wire
 		(pts
@@ -1984,6 +1823,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082dab36-c306-4275-af8b-5c02d2c51de9")
+	)
+	(wire
+		(pts
 			(xy 234.95 80.01) (xy 222.25 80.01)
 		)
 		(stroke
@@ -1991,16 +1840,6 @@
 			(type default)
 		)
 		(uuid "09287327-5566-4fdb-9288-9c0869918279")
-	)
-	(wire
-		(pts
-			(xy 222.25 88.9) (xy 229.87 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09552aad-779a-4434-90b3-c9a25020f86c")
 	)
 	(wire
 		(pts
@@ -2034,33 +1873,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 105.41) (xy 95.25 80.01)
+			(xy 96.52 105.41) (xy 96.52 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "14215da8-4ac8-45b6-b530-d082fe4c062d")
-	)
-	(wire
-		(pts
-			(xy 166.37 80.01) (xy 173.99 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "153a0e23-ea84-4dde-8562-feffd25578b3")
-	)
-	(wire
-		(pts
-			(xy 95.25 80.01) (xy 107.95 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c0c49aa-4406-4d4f-a45f-f98623a92a69")
 	)
 	(wire
 		(pts
@@ -2104,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 222.25 80.01)
+			(xy 222.25 80.01) (xy 222.25 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2164,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 80.01) (xy 151.13 80.01)
+			(xy 107.95 80.01) (xy 144.78 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2174,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 105.41) (xy 82.55 80.01)
+			(xy 85.09 105.41) (xy 85.09 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2211,6 +2030,16 @@
 			(type default)
 		)
 		(uuid "5cb6d5d4-effa-43c2-a86c-bc6bb5513227")
+	)
+	(wire
+		(pts
+			(xy 85.09 135.89) (xy 96.52 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e22e4cb-e91e-4db3-b250-ce9de5843485")
 	)
 	(wire
 		(pts
@@ -2264,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 80.01) (xy 82.55 80.01)
+			(xy 69.85 80.01) (xy 73.66 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2284,6 +2113,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 135.89) (xy 107.95 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6c0147-b873-49ff-b65b-a9086608d7d1")
+	)
+	(wire
+		(pts
 			(xy 186.69 96.52) (xy 186.69 99.06)
 		)
 		(stroke
@@ -2294,13 +2133,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 80.01) (xy 95.25 80.01)
+			(xy 165.1 80.01) (xy 173.99 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6aa92d66-e7a2-47c5-b084-c6c7ba2ab152")
+		(uuid "6a77adfa-45c1-431a-a6c1-632fa7e05a22")
 	)
 	(wire
 		(pts
@@ -2334,7 +2173,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 113.03) (xy 95.25 135.89)
+			(xy 96.52 113.03) (xy 96.52 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2364,13 +2203,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 105.41) (xy 222.25 88.9)
+			(xy 73.66 135.89) (xy 85.09 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d7a546b-3cb8-41fd-984c-70157909cb01")
+		(uuid "7e166d5a-bee7-44cb-912e-37ea230263e4")
 	)
 	(wire
 		(pts
@@ -2404,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 113.03) (xy 82.55 135.89)
+			(xy 85.09 113.03) (xy 85.09 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2421,6 +2260,16 @@
 			(type default)
 		)
 		(uuid "91c57899-16c6-4025-bcce-36b24ccd0636")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92140c05-bab4-4251-b09b-5b1e4a99b6bb")
 	)
 	(wire
 		(pts
@@ -2441,6 +2290,16 @@
 			(type default)
 		)
 		(uuid "935bc5f7-5a92-4641-8a72-af9ad00175b2")
+	)
+	(wire
+		(pts
+			(xy 73.66 105.41) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b21c53-6059-4b7e-ad97-4b76b771588a")
 	)
 	(wire
 		(pts
@@ -2471,16 +2330,6 @@
 			(type default)
 		)
 		(uuid "9df706ce-2faa-4638-997a-19975eb0a590")
-	)
-	(wire
-		(pts
-			(xy 82.55 135.89) (xy 95.25 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a146ae24-d3be-4c22-bf48-078174c2a370")
 	)
 	(wire
 		(pts
@@ -2564,6 +2413,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 80.01) (xy 96.52 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cca20220-1041-4f82-a8f6-05dc573dc98a")
+	)
+	(wire
+		(pts
 			(xy 118.11 99.06) (xy 118.11 96.52)
 		)
 		(stroke
@@ -2644,16 +2503,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 135.89) (xy 107.95 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16607a9-0262-4278-b7c4-f928d379a67f")
-	)
-	(wire
-		(pts
 			(xy 176.53 96.52) (xy 186.69 96.52)
 		)
 		(stroke
@@ -2701,30 +2550,6 @@
 			(type default)
 		)
 		(uuid "fcfcafa5-4487-4621-95c4-2e71c02a2291")
-	)
-	(global_label "32V_out"
-		(shape input)
-		(at 229.87 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a45cd6a3-a45b-4a18-8d5f-751a7dc7b2e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.3541 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "passives:EEHZA1H100R")
@@ -2958,7 +2783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47nF"
+		(property "Value" "33nF"
 			(at 179.07 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2980,7 +2805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM31M5C1H473JA01L/586676?s=N4IgTCBcDaIOICUCyBmAjEgrAYTQCQBYB2FAKQEEAGNAGRAF0BfIA"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/C1206C333F5GEC7210/8646115"
 			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
@@ -2991,7 +2816,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.047UF 50V C0G/NP0 1206"
+		(property "Description" "CAP CER 1206 33NF 50V C0G 1%"
 			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
@@ -3002,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GRM31M5C1H473JA01L"
+		(property "Part Number" "C1206C333F5GEC7210"
 			(at 175.26 127 0)
 			(hide yes)
 			(show_name no)
@@ -3051,7 +2876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "249K"
+		(property "Value" "280K"
 			(at 199.39 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3073,7 +2898,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW1206249KFKEA/1176915"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RQ73C2B280KBTD/9480035"
 			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3084,7 +2909,7 @@
 				)
 			)
 		)
-		(property "Description" "RES SMD 249K OHM 1% 1/4W 1206"
+		(property "Description" "RES 280 KOHMS 0.1% 0.4W 1206"
 			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3095,7 +2920,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CRCW1206249KFKEA"
+		(property "Part Number" "RQ73C2B280KBTD"
 			(at 196.85 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3143,7 +2968,7 @@
 				)
 			)
 		)
-		(property "Value" "2.55K"
+		(property "Value" "3.09K"
 			(at 166.37 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3164,7 +2989,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-072K55L/728648?s=N4IgTCBcDaIEoGECMYAMA2AYnAtKg7GANICsJAMiALoC%2BQA"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/panasonic-industry/ERA-8AEB3091V/3070954"
 			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3175,7 +3000,7 @@
 				)
 			)
 		)
-		(property "Description" "RES 2.55K OHM 1% 1/4W 1206"
+		(property "Description" "RES SMD 3.09K OHM 0.1% 1/4W 1206"
 			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3186,7 +3011,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC1206FR-072K55L"
+		(property "Part Number" "ERA-8AEB3091V"
 			(at 166.37 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -3213,8 +3038,8 @@
 		)
 	)
 	(symbol
-		(lib_id "passives:IHLP2525CZER100M11")
-		(at 151.13 80.01 0)
+		(lib_id "passives:PM124SH-100M-RC")
+		(at 144.78 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3223,53 +3048,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "715d7759-7ca9-428a-918d-e21b347149cd")
+		(uuid "63ad22dd-c478-4658-a0a2-ff57bff40269")
 		(property "Reference" "L1"
-			(at 158.75 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IHLP2525CZER100M11"
-			(at 158.75 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "IND_IHLP_2525_CZ_VIS"
-			(at 151.13 80.01 0)
-			(hide yes)
+			(at 154.94 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/IHLP2525CZER100M11/1220685?s=N4IgTCBcDaIJIAkAyAFMBWDBhAWgUQCUBGABhIFkiiQBdAXyA"
-			(at 151.13 80.01 0)
-			(hide yes)
+		(property "Value" "10uH"
+			(at 154.94 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Description" "FIXED IND 10UH 4A 71.2 MOHM SMD"
-			(at 151.13 80.01 0)
+		(property "Footprint" "INDPM125125X450N"
+			(at 161.29 176.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3277,13 +3078,97 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/PM124SH-100M-RC/3741472"
+			(at 161.29 276.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "BOURNS JW MILLER - PM124SH-100M-RC - INDUCTOR, SHIELDED, 10UH, 4A, 20%"
+			(at 144.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.5"
+			(at 161.29 476.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "542-PM124SH-100M-RC"
+			(at 161.29 576.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/PM124SH-100M-RC?qs=%252BhGYyi1WD%252Bn7U9q4tV%252BKqg%3D%3D"
+			(at 161.29 676.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 161.29 776.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PM124SH-100M-RC"
+			(at 161.29 876.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 			)
 		)
 		(pin "2"
-			(uuid "14d737cd-93f9-4dca-b8fe-faa9c8bcdeab")
+			(uuid "a90edf63-8dca-4e50-b72d-5fa637233d9e")
 		)
 		(pin "1"
-			(uuid "8103d7d9-a583-45fa-b138-5038f02f51ed")
+			(uuid "33d2a3e3-b0e2-4c20-9ab4-9871bab08001")
 		)
 		(instances
 			(project "burger_king_light"
@@ -3316,7 +3201,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820pF"
+		(property "Value" "560pF"
 			(at 161.29 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 157.1752 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3338,7 +3223,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM2165C2A821JA01D/2544760?s=N4IgTCBcDaIOICUCyYCMA2ArAYTAQQA40ApPABlQBEQBdAXyA"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM31BCG2A561JT/1603743"
 			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
@@ -3349,7 +3234,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 820PF 100V C0G/NP0 0805"
+		(property "Description" "CAP CER 560PF 100V C0G/NP0 1206"
 			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
@@ -3360,7 +3245,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GRM2165C2A821JA01D"
+		(property "Part Number" "KGM31BCG2A561JT"
 			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
@@ -3665,7 +3550,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 82.55 109.22 0)
+		(at 85.09 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3675,8 +3560,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a2475bc-13f6-491f-9e27-09fff6ce9589")
-		(property "Reference" "Cin1"
-			(at 86.36 107.9499 0)
+		(property "Reference" "Cin2"
+			(at 88.9 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3687,7 +3572,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 86.36 110.4899 0)
+			(at 88.9 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3698,7 +3583,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 83.5152 113.03 0)
+			(at 86.0552 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +3594,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA8P2X7R1E106K250KA/2781334?s=N4IgTCBcDaIMIHECCAOACmAGgdgEoEYBRfABgDYBpMAVhIqRAF0BfIA"
-			(at 82.55 109.22 0)
+			(at 85.09 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3720,7 +3605,7 @@
 			)
 		)
 		(property "Description" "CAP CER 10UF 25V X7R 1812"
-			(at 82.55 109.22 0)
+			(at 85.09 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +3616,7 @@
 			)
 		)
 		(property "Part Number" "CGA8P2X7R1E106K250KA"
-			(at 82.55 109.22 0)
+			(at 85.09 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,7 +3635,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "Cin1")
+					(reference "Cin2")
 					(unit 1)
 				)
 			)
@@ -3928,6 +3813,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 73.66 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df93f26-d200-43b4-bf82-68c27d87f529")
+		(property "Reference" "Cin1"
+			(at 77.47 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 77.47 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+			(at 74.6252 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/tdk/CGA8P2X7R1E106K250KA/2781334?s=N4IgTCBcDaIMIHECCAOACmAGgdgEoEYBRfABgDYBpMAVhIqRAF0BfIA"
+			(at 73.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X7R 1812"
+			(at 73.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CGA8P2X7R1E106K250KA"
+			(at 73.66 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4bc836fb-760d-4041-a685-1b797c9efb75")
+		)
+		(pin "1"
+			(uuid "b2f09a24-8522-43f4-830d-81eba0df2550")
+		)
+		(instances
+			(project "burger_king_light"
+				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
+					(reference "Cin1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener_Filled")
 		(at 185.42 80.01 180)
 		(unit 1)
@@ -3949,7 +3927,7 @@
 				)
 			)
 		)
-		(property "Value" "550 mV @ 5 A"
+		(property "Value" "700 mV @ 5 A"
 			(at 185.42 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,7 +3937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3970,7 +3948,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/comchip-technology/CDBA540-HF/5226175"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/B560CQ-13-F/6187200"
 			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3981,7 +3959,7 @@
 				)
 			)
 		)
-		(property "Description" "DIODE SCHOTTKY 40V 5A DO214AC"
+		(property "Description" "DIODE SCHOTTKY 60V 5A SMC"
 			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3992,7 +3970,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CDBA540-HF"
+		(property "Part Number" "B560CQ-13-F"
 			(at 185.42 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4388,14 +4366,15 @@
 				)
 			)
 		)
-		(property "Value" "+32V"
-			(at 234.95 64.77 0)
+		(property "Value" "+36V"
+			(at 237.49 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4445,7 +4424,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95.25 109.22 0)
+		(at 96.52 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4456,7 +4435,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2241103-5225-4484-802b-ad251c2901c0")
 		(property "Reference" "Cinx1"
-			(at 99.06 107.9499 0)
+			(at 100.33 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4467,7 +4446,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 99.06 110.4899 0)
+			(at 100.33 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4478,7 +4457,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 96.2152 113.03 0)
+			(at 97.4852 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,7 +4468,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71E104KT/1116281?s=N4IgTCBcDaIAwA44FYDMBhAjHALAaQEEAVMAkAXQF8g"
-			(at 95.25 109.22 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4500,7 +4479,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 25V X7R 0805"
-			(at 95.25 109.22 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4511,7 +4490,7 @@
 			)
 		)
 		(property "Part Number" "08053C104KAT2A"
-			(at 95.25 109.22 0)
+			(at 96.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
