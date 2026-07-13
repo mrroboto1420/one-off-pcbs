@@ -201,6 +201,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+28V"
 			(power global)
 			(pin_numbers
@@ -456,9 +579,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 200.66 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "928698ab-7199-449c-a1f9-498bcea86fe3")
+	)
+	(junction
+		(at 200.66 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8ebd0c-640d-45c8-86cc-8cdafe94916a")
+	)
 	(wire
 		(pts
-			(xy 187.96 46.99) (xy 196.85 46.99)
+			(xy 191.77 55.88) (xy 200.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -468,7 +603,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 41.91) (xy 196.85 38.1)
+			(xy 200.66 62.23) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373f0a2b-1027-483d-89f1-b2bdfb39d99c")
+	)
+	(wire
+		(pts
+			(xy 200.66 50.8) (xy 200.66 46.99)
 		)
 		(stroke
 			(width 0)
@@ -478,7 +623,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 41.91) (xy 196.85 41.91)
+			(xy 191.77 50.8) (xy 200.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -488,7 +633,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 46.99) (xy 196.85 50.8)
+			(xy 200.66 55.88) (xy 200.66 62.23)
 		)
 		(stroke
 			(width 0)
@@ -496,9 +641,29 @@
 		)
 		(uuid "abcc2c30-56ef-436b-a234-7e0582910725")
 	)
+	(wire
+		(pts
+			(xy 200.66 62.23) (xy 200.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5da0cf-f235-4731-a4b5-4de9094b4baa")
+	)
+	(wire
+		(pts
+			(xy 200.66 50.8) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaef258e-5897-4823-b064-69beb4c3cdc8")
+	)
 	(symbol
 		(lib_id "power:+28V")
-		(at 196.85 38.1 0)
+		(at 200.66 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -508,8 +673,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3363103b-14b8-4cdc-9751-23332277cbc5")
-		(property "Reference" "#PWR06"
-			(at 196.85 41.91 0)
+		(property "Reference" "#PWR01"
+			(at 200.66 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -520,7 +685,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 196.85 33.02 0)
+			(at 200.66 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -530,7 +695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 36.83 0)
+			(at 207.01 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -541,7 +706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 36.83 0)
+			(at 207.01 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -552,7 +717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+28V\""
-			(at 196.85 38.1 0)
+			(at 200.66 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -568,7 +733,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -576,7 +741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 50.8 0)
+		(at 200.66 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -586,8 +751,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45af2a4d-e787-42aa-8ec6-6e68f8043407")
-		(property "Reference" "#PWR05"
-			(at 196.85 57.15 0)
+		(property "Reference" "#PWR02"
+			(at 200.66 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -598,7 +763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 55.88 0)
+			(at 200.66 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -608,7 +773,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 50.8 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -619,7 +784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 50.8 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -630,7 +795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 50.8 0)
+			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -646,46 +811,48 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
-					(reference "#PWR05")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:Jack-DC")
-		(at 180.34 44.45 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 218.44 50.8 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6fa36a6-d388-4b08-ab4d-e2dcb6c3076a")
-		(property "Reference" "J1"
-			(at 180.34 35.56 0)
+		(uuid "59dd7ed1-1347-4e76-92c5-d3fd3fc46038")
+		(property "Reference" "H1"
+			(at 222.25 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Jack-DC"
-			(at 180.34 38.1 0)
+		(property "Value" "MountingHole_Pad"
+			(at 222.25 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 181.61 45.466 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+			(at 218.44 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -696,7 +863,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 45.466 0)
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 218.44 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "781c3889-80b6-4a40-a445-ad7adda608e2")
+		)
+		(instances
+			(project "burger_king_light"
+				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Jack-DC")
+		(at 184.15 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6fa36a6-d388-4b08-ab4d-e2dcb6c3076a")
+		(property "Reference" "J1"
+			(at 184.15 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jack-DC"
+			(at 184.15 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 54.356 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -707,7 +951,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 180.34 44.45 0)
+			(at 184.15 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -727,6 +971,85 @@
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 218.44 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6086cc8-f277-4c17-831a-74aae361ea65")
+		(property "Reference" "H2"
+			(at 222.25 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 222.25 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+			(at 218.44 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 218.44 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f55c11e-3687-41ff-87e9-74489b04994a")
+		)
+		(instances
+			(project "burger_king_light"
+				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb"
+					(reference "H2")
 					(unit 1)
 				)
 			)
