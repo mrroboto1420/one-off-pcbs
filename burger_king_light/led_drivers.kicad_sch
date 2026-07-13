@@ -308,7 +308,7 @@
 	)
 	(symbol
 		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
-		(at 111.76 45.72 0)
+		(at 119.38 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -319,7 +319,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bec40fd-bbcd-4d0f-a88d-67aadcfbe9f0")
 		(property "Reference" "IC2"
-			(at 127 38.1 0)
+			(at 134.62 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -329,7 +329,7 @@
 			)
 		)
 		(property "Value" "IS32LT3178-GRLA3-TR"
-			(at 127 40.64 0)
+			(at 134.62 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -339,7 +339,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X170-9N"
-			(at 138.43 140.64 0)
+			(at 146.05 146.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -351,7 +351,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
-			(at 138.43 240.64 0)
+			(at 146.05 246.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -363,7 +363,7 @@
 			)
 		)
 		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
-			(at 111.76 45.72 0)
+			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -374,7 +374,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 138.43 440.64 0)
+			(at 146.05 446.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -386,7 +386,7 @@
 			)
 		)
 		(property "Mouser Part Number" "870-3177-GRLA3-TR"
-			(at 138.43 540.64 0)
+			(at 146.05 546.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -398,7 +398,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
-			(at 138.43 640.64 0)
+			(at 146.05 646.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -410,7 +410,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 138.43 740.64 0)
+			(at 146.05 746.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -422,7 +422,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
-			(at 138.43 840.64 0)
+			(at 146.05 846.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -471,7 +471,7 @@
 	)
 	(symbol
 		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
-		(at 111.76 90.17 0)
+		(at 119.38 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -482,7 +482,7 @@
 		(fields_autoplaced yes)
 		(uuid "420a191e-8459-495c-bb55-6b355cc7ef4f")
 		(property "Reference" "IC3"
-			(at 127 82.55 0)
+			(at 134.62 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -492,7 +492,7 @@
 			)
 		)
 		(property "Value" "IS32LT3178-GRLA3-TR"
-			(at 127 85.09 0)
+			(at 134.62 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -502,7 +502,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X170-9N"
-			(at 138.43 185.09 0)
+			(at 146.05 191.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -514,7 +514,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
-			(at 138.43 285.09 0)
+			(at 146.05 291.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -526,7 +526,7 @@
 			)
 		)
 		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
-			(at 111.76 90.17 0)
+			(at 119.38 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -537,7 +537,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 138.43 485.09 0)
+			(at 146.05 491.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -549,7 +549,7 @@
 			)
 		)
 		(property "Mouser Part Number" "870-3177-GRLA3-TR"
-			(at 138.43 585.09 0)
+			(at 146.05 591.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -561,7 +561,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
-			(at 138.43 685.09 0)
+			(at 146.05 691.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -573,7 +573,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 138.43 785.09 0)
+			(at 146.05 791.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -585,7 +585,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
-			(at 138.43 885.09 0)
+			(at 146.05 891.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -634,7 +634,7 @@
 	)
 	(symbol
 		(lib_id "misc_ICs:IS32LT3177-GRLA3-TR")
-		(at 111.76 133.35 0)
+		(at 119.38 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -645,7 +645,7 @@
 		(fields_autoplaced yes)
 		(uuid "93900b14-9780-4181-9029-8b61a5f7834d")
 		(property "Reference" "IC4"
-			(at 127 125.73 0)
+			(at 134.62 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -655,7 +655,7 @@
 			)
 		)
 		(property "Value" "IS32LT3178-GRLA3-TR"
-			(at 127 128.27 0)
+			(at 134.62 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -665,7 +665,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X170-9N"
-			(at 138.43 228.27 0)
+			(at 146.05 234.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -677,7 +677,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lumissil.com/assets/pdf/core/IS32LT3177_78_DS.pdf"
-			(at 138.43 328.27 0)
+			(at 146.05 334.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -689,7 +689,7 @@
 			)
 		)
 		(property "Description" "LED Lighting Drivers 10 to 200mA Constant Current LED driver with 1kHz PWM dimming pin, SOP-8-EP ( 5.0mm x 6.0mm), T&R"
-			(at 111.76 133.35 0)
+			(at 119.38 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -700,7 +700,7 @@
 			)
 		)
 		(property "Height" "1.7"
-			(at 138.43 528.27 0)
+			(at 146.05 534.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -712,7 +712,7 @@
 			)
 		)
 		(property "Mouser Part Number" "870-3177-GRLA3-TR"
-			(at 138.43 628.27 0)
+			(at 146.05 634.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -724,7 +724,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lumissil/IS32LT3177-GRLA3-TR?qs=BJlw7L4Cy7%252BVGjad4K6gzA%3D%3D"
-			(at 138.43 728.27 0)
+			(at 146.05 734.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -736,7 +736,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lumissil Microsystems"
-			(at 138.43 828.27 0)
+			(at 146.05 834.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -748,7 +748,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IS32LT3177-GRLA3-TR"
-			(at 138.43 928.27 0)
+			(at 146.05 934.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
