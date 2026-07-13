@@ -3242,7 +3242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "817683bb-9213-4f56-a4d3-611fdb292dff")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 68.58 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3302,7 +3302,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/0641335a-b39f-4dc9-bc4d-328a71cdee24"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3595,7 +3595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a69626db-b000-42dd-8cb3-a588937419f2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 168.91 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3655,7 +3655,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/0641335a-b39f-4dc9-bc4d-328a71cdee24"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
