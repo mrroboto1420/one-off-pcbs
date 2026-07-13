@@ -3345,7 +3345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EEHZA1H100R:CAP_EEHZA1H100R"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.3"
 			(at 245.11 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5260,7 +5260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c27b770b-3c18-4ade-aa0e-f06d1c8c3b96")
-		(property "Reference" "IC1"
+		(property "Reference" "U1"
 			(at 137.16 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5467,7 +5467,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/2b973585-e867-4f75-9aeb-d45cf169fa75"
-					(reference "IC1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
