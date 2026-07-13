@@ -2881,7 +2881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fab7af5-801a-48b6-b61e-53cff617d2d7")
-		(property "Reference" "IC4"
+		(property "Reference" "U5"
 			(at 106.68 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3026,7 +3026,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "IC4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3044,7 +3044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bec40fd-bbcd-4d0f-a88d-67aadcfbe9f0")
-		(property "Reference" "IC2"
+		(property "Reference" "U3"
 			(at 106.68 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,7 +3189,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "IC2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4128,7 +4128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2dd4659-a262-4c18-a407-78f8a2a519a2")
-		(property "Reference" "IC3"
+		(property "Reference" "U4"
 			(at 106.68 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4273,7 +4273,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "IC3")
+					(reference "U4")
 					(unit 1)
 				)
 			)

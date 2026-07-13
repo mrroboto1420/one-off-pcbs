@@ -3100,7 +3100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e49a22e-4ff2-4302-aed5-e96aa90aa3de")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 184.404 81.026 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3224,7 +3224,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/0641335a-b39f-4dc9-bc4d-328a71cdee24"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3785,7 +3785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "passives:3-PIN POT"
 			(at 200.66 100.33 0)
 			(hide yes)
 			(show_name no)
