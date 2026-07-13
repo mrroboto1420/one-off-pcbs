@@ -2458,7 +2458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "166354af-9ad6-40ab-9f33-dfa5c7d7615d")
-		(property "Reference" "H1"
+		(property "Reference" "H3"
 			(at 187.96 35.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2480,7 +2480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -2519,7 +2519,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "H1")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2537,7 +2537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1977fd42-1aaa-467a-b686-10bdb3f8ee25")
-		(property "Reference" "H5"
+		(property "Reference" "H7"
 			(at 187.96 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +2559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 184.15 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -2598,7 +2598,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "H5")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -2616,7 +2616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d45075b-b867-4fd1-9e0d-095a663f3eb1")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 156.21 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2677,7 +2677,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "#PWR017")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3299,7 +3299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ba27c7-1feb-496f-b95d-50b542d23461")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 156.21 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -3360,7 +3360,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3378,7 +3378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d964c50-b5bb-4de0-9159-058a5ca0be59")
-		(property "Reference" "H2"
+		(property "Reference" "H4"
 			(at 187.96 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3400,7 +3400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 184.15 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3439,7 +3439,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "H2")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81a739dd-3ea7-4ae8-a2b7-192f22563dd6")
-		(property "Reference" "H6"
+		(property "Reference" "H8"
 			(at 187.96 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3479,7 +3479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 184.15 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -3518,7 +3518,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "H6")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -3536,7 +3536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c68ebd7-68d5-464c-aec4-bbcacc382cbe")
-		(property "Reference" "H3"
+		(property "Reference" "H5"
 			(at 187.96 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3558,7 +3558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 184.15 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3597,7 +3597,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "H3")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -3615,7 +3615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90cf821f-3e2d-4f12-a8c4-f2d9f9e128e2")
-		(property "Reference" "H4"
+		(property "Reference" "H6"
 			(at 187.96 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +3637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_5.3mm_M5_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
 			(at 184.15 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3676,7 +3676,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "H4")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -3786,7 +3786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e35015-6d4e-4904-acd5-2282eb980195")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 106.68 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3846,7 +3846,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4050,7 +4050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfa14e8e-3db8-4e7f-9dad-7cde5152d01e")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 106.68 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4110,7 +4110,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4477,7 +4477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fece58db-c853-4d07-8a6f-b3dc6ad54ebf")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 106.68 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -4537,7 +4537,7 @@
 		(instances
 			(project "burger_king_light"
 				(path "/a1df17e6-efc5-454a-8f2a-f09b9061eebb/8d1794ed-4131-430d-a90f-cb9174cf4871"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
