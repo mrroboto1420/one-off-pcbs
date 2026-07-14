@@ -521,26 +521,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
+			(property "Reference" "U1"
+				(at 15.24 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "TPS55340PWPR"
-				(at 26.67 5.08 0)
+				(at 15.24 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "SOP65P640X120-15N"
@@ -636,6 +634,50 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
+				)
+			)
+			(property "Sim.Library" "C:\\Users\\Admin\\Documents\\KiCad\\10.0\\spice\\buck_boost_ICs\\TPS55340_TRANS_LTspice.lib"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Name" "TPS55340_TRANS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=SW_0 2=SW_1 3=VIN 4=EN 5=SS 6=SYNC 8=COMP 9=FB 10=FREQ 12=PGND_0 13=PGND_1 14=PGND_2 15=AGND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "TPS55340PWPR_1_1"
@@ -830,7 +872,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 30.48 -7.62 180)
 					(length 5.08)
 					(name "NC"
@@ -1652,6 +1694,12 @@
 		(uuid "11a803dd-87d3-4ba3-863c-da141ab311a7")
 	)
 	(junction
+		(at 118.11 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "131c7edd-da52-4be1-9c22-b4fd1a13a163")
+	)
+	(junction
 		(at 196.85 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1854,10 +1902,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea79579d-2fe3-44e5-b5ec-d25227bc2797")
-	)
-	(no_connect
-		(at 121.92 109.22)
-		(uuid "2cbdf897-de62-427a-839b-582bdb93e239")
 	)
 	(wire
 		(pts
@@ -2141,6 +2185,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 109.22) (xy 118.11 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41198c03-39ab-4e08-a43d-afd4e1ac91f3")
+	)
+	(wire
+		(pts
 			(xy 152.4 104.14) (xy 156.21 104.14)
 		)
 		(stroke
@@ -2358,6 +2412,16 @@
 			(type default)
 		)
 		(uuid "6787f8b4-39e2-43ce-a05f-d8d106d6ebe1")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 118.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67dd11e0-db95-4fb4-89b3-8e4709663283")
 	)
 	(wire
 		(pts
