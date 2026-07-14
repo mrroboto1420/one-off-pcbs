@@ -67,58 +67,18 @@
       "showGrid": true,
       "traces": [
         {
+          "color": "rgb(77, 175, 74)",
+          "signal": "I(R1)",
+          "trace_type": 258
+        },
+        {
           "color": "rgb(228, 26, 28)",
           "signal": "V(+12V)",
           "trace_type": 257
         },
         {
-          "color": "rgb(204, 102, 0)",
-          "signal": "V(Net-_D2-K_)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "cursor1": {
-            "position": 0.033799342105263155,
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "cursor2": {
-            "position": 0.0375,
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "signal": "V(PWM_out)",
-          "trace_type": 257
-        }
-      ]
-    },
-    {
-      "analysis": "TRAN",
-      "commands": [
-        ".tran 1u 100m",
-        ".kicad adjustpaths",
-        ".save all",
-        ".probe alli",
-        ".probe allp"
-      ],
-      "dottedSecondary": true,
-      "margins": {
-        "bottom": 45,
-        "left": 70,
-        "right": 70,
-        "top": 30
-      },
-      "measurements": [],
-      "showGrid": true,
-      "traces": [
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(+12V)",
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(Net-_C1-Pad1_)",
           "trace_type": 257
         },
         {
