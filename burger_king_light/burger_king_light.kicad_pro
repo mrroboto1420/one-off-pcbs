@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 0.0,
+          "height": 2.46,
+          "width": 2.31
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.508,
-          "min_island_area": 9.99999999996,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
           "min_thickness": 0.254,
-          "pad_connection": 2,
-          "remove_islands": 0,
+          "pad_connection": 1,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.508,
           "thermal_relief_spoke_width": 0.508
         }
@@ -821,7 +821,7 @@
         "uuid": "a1df17e6-efc5-454a-8f2a-f09b9061eebb"
       }
     ],
-    "used_designators": "#GND1,R1-4,IC1-4,U1-5,#PWR1-17,Rsnub1-2,Cled1-3,L1,D1-4,Rset1-3,C1-7,LED2+1,RV1,Cledout1-3,Cin1-3,J1,LED2\\-1,Rfbt1,Cinx1-2,Rfbb1,V1,Ccomp1-2,Cout1-6,Rcomp1,Coutx1,Css1,Rt1-2,Csnub1-2,Ren2,H1-8,Cbulk1,LED1+1,LED1\\-1,LED3+1,LED3\\-1",
+    "used_designators": "#GND1,R1-4,IC1-4,U1-5,#PWR1-17,Rsnub1-2,Cled1-3,L1,D1-4,Rset1-3,C1-7,LED2+1,RV1,Cledout1-3,Cin1-3,J1,Rfbt1,Cinx1-2,Rfbb1,V1,Ccomp1-2,Cout1-6,Rcomp1,Coutx1,Css1,Rt1-2,Csnub1-2,Ren2,H1-8,Cbulk1,LED1+1,LED1,LED3+1",
     "variants": []
   },
   "sheets": [
