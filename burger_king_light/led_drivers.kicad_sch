@@ -2480,7 +2480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 184.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -2559,7 +2559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 184.15 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3400,7 +3400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 184.15 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3479,7 +3479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 184.15 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -3558,7 +3558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 184.15 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3637,7 +3637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_TopBottom"
 			(at 184.15 102.87 0)
 			(hide yes)
 			(show_name no)
